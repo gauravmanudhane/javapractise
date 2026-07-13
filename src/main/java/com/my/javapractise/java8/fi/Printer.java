@@ -1,4 +1,6 @@
 package com.my.javapractise.java8.fi;
 
-public interface Printer {
+@FunctionalInterface
+public interface Printer<T> {
+    void print(T t);
 }

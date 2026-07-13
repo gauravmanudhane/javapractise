@@ -8,7 +8,7 @@ public class ShallowCopy {
 class ShallowTest{
     public static void main(String[] args) {
         ShallowCopy obj1 = new ShallowCopy();
-        //Shallow Copy
+        //Shallow Copy reference copy
         ShallowCopy obj2 = obj1;
 
         System.out.println(" Before Changing the value of object 1, the object2 will be - ");
